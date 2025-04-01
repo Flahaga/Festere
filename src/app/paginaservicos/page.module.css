@@ -1,0 +1,21 @@
+.titulo{
+    color: #fc8805;
+     font-size: 24px;
+    font-weight: bold;
+     margin-bottom: 20px;
+     text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color:white;
+}
+
+.serviços, .local, .menu, .decoração,.entretenimento, .casa {
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+}

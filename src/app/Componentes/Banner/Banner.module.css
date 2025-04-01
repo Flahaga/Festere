@@ -1,0 +1,14 @@
+
+.banner {
+    background-image: url("./../../../../public/logo.png");
+    background-size:contain; /* Faz a imagem preencher 100% da largura e altura */
+    width: 100%;
+    height: 250px;
+}
+
+
+
+
+    
+
+    

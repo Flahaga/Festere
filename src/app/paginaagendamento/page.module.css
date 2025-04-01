@@ -1,0 +1,82 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color:white;
+}
+
+.agenda {
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.titulo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.section {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.checkboxGroup {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.checkboxLabel {
+    border: 1px solid #fc8805;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.checkboxLabel:hover {
+    background-color: #fc8805;
+}
+
+.submitBtn{
+   background-color: #fc8805;
+   color:black;
+   padding: 10px;
+   border-radius: 20px;
+}
+
+.casa{
+    width: 40px;
+    height: 40px;
+}
+.icon_label{
+    color:#fc8805;
+    margin-right: 5px;
+}
+.link{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+
+.timeInput {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #fc8805;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.timeInput:focus {
+    outline: none;
+    border-color:#fc8805;
+}
+
+.texto{
+    color: #fc8805;
+    font-size: 18px;
+}
