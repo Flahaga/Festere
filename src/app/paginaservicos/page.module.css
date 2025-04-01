@@ -14,8 +14,38 @@
     background-color:white;
 }
 
-.serviços, .local, .menu, .decoração,.entretenimento, .casa {
+.serviços{
     width: 100px;
     height: auto;
     margin-bottom: 20px;
+}
+
+.local, .menu, .decoração,.entretenimento{
+    width: 80px;
+    height: 80px;
+    
+}
+.casa{
+    width: 40px;
+    height: 40px;
+}
+.linha, .linha2, .linha3 , .linha4{
+    flex-direction: row;
+    display: flex;
+    padding: 20px;
+}
+
+.icon_label{
+    color:#fc8805;
+    margin-right: 5px;
+}
+.linha5{
+   align-items: center;
+   
+}
+.texto{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    margin: 5px;
 }
