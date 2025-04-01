@@ -1,10 +1,10 @@
 import estilos from "./page.module.css"
-import Serviços from "../../../public/serviços.png";
-import Local from "../../../public/local.png";
-import Menu from "../../../public/menu.png";
-import Decoração from "../../../public/decoração.png";
-import Entretenimento from "../../../public/bandeira.png";
-import Casa from "../../../public/casa.png";
+import Serviços from "../../.././public/serviços.png";
+import Local from "../../.././public/local.png";
+import Menu from "../../.././public/menu.png";
+import Decoração from "../../.././public/decoração.png";
+import Entretenimento from "../../.././public/bandeira.png";
+import Casa from "../../.././public/casa.png";
 
 export default function PaginaServiços(){
     return(
