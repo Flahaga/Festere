@@ -2,7 +2,7 @@ import estilos from "./principal.module.css"
 import Image from "next/image";
 import Agenda from "../../../../public/calendario.png";
 import Serviços from "../../../.././public/serviços.png";
-import Portfólio from "../../../.././public/camera_4083818.png";
+import Portfólio from "../../../.././public/camera.png";
 import Depoimentos from "../../../.././public/document_5186030.png";
 import Orçamentos from "../../../.././public/search_5186226.png";
 import Pagamentos from "../../../.././public/money_5186312.png";
@@ -34,7 +34,7 @@ export default function Principal(){
             <div className={estilos.linha2}>
             <div class={estilos.icone_box}>
             <Image className={estilos.img_3} src={Portfólio} alt="Ícone de Portfólio"/>
-                <div class={estilos.icon_label}>Portfólio de eventos</div>
+            <Link href="/paginaeventos" className={estilos.icon_label}>Portfólio de Eventos</Link>
             </div>
             <div class={estilos.icone_box}>
             <Image className={estilos.img_4} src={Depoimentos} alt="Ícone de Depoimentos"/>

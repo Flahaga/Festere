@@ -58,7 +58,7 @@ export default function PaginaAgendamento() {
                 </select>
             </div>
             <div className={estilos.link}>
-            <Link href="/" className={estilos.icon_label}>Clique Aqui</Link>
+            <Link href="/paginaservicos" className={estilos.icon_label}>Clique Aqui</Link>
             <p> para escolher os serviços adicionais</p>
             </div>
           

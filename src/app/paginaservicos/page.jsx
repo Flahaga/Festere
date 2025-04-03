@@ -32,13 +32,12 @@ export default function PaginaServiços(){
            <Image className={estilos.entretenimento} src={Entretenimento} alt="Ícone de Entetenimento" />
            <p className={estilos.texto}>Entretenimento:</p>
            <p className={estilos.texto}>DJs, Bandas, Mágicos e muito mais</p>
-           <div>
-            </div>
-            <div className={estilos.linha5}>
+           </div>
+           <div className={estilos.linha5}>
             <Image className={estilos.casa} src={Casa} alt="Ícone de Casa"/> 
             <Link href="/" className={estilos.icon_label}>Voltar para Home</Link>
             </div>
-            </div>
         </div>
+        
     );
 }
