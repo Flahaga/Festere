@@ -19,9 +19,39 @@
     margin-bottom: 20px;
 }
 
-.bebe1, .bebe2, .bebe3,.bebe4{
-    width: 300px;
-    height: 300px;
+.bebe1, .bebe2, .bebe3,.bebe4, .casa1, .casa2, .casa3, .casa4, .festa1, .festa2, .festa3, .festa4, .niver1, .niver2, .niver3, .niver4, .forma1, .forma2, .forma3, .forma4{
+    width: 270px;
+    height: 270px;
     border-radius: 30px;
     margin: 5px;
+}
+
+.texto{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #fc8805;
+    color: white;
+    padding: 15px;
+    
+}
+
+.casa{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.icon_label{
+    color:#fc8805;
+    margin-left: 5px;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+.linha5{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    justify-content: center;
 }

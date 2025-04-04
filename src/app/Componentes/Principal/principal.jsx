@@ -3,7 +3,7 @@ import Image from "next/image";
 import Agenda from "../../../../public/calendario.png";
 import Serviços from "../../../.././public/serviços.png";
 import Portfólio from "../../../.././public/camera.png";
-import Depoimentos from "../../../.././public/document_5186030.png";
+import Depoimentos from "../../../.././public/depoimento.png";
 import Orçamentos from "../../../.././public/search_5186226.png";
 import Pagamentos from "../../../.././public/money_5186312.png";
 import Contatos from "../../../.././public/contatos.png";
@@ -38,7 +38,7 @@ export default function Principal(){
             </div>
             <div class={estilos.icone_box}>
             <Image className={estilos.img_4} src={Depoimentos} alt="Ícone de Depoimentos"/>
-                <div class={estilos.icon_label}>Depoimentos</div>
+            <Link href="/paginadepoimentos" className={estilos.icon_label}>Depoimentos</Link>
             </div>
             </div>
             <div className={estilos.linha3}>

@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #fc8805;
+}
+
+.depoimento{
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.texto{
+    font-size: 20px;
+    font-weight: bolder;
+    color:orangered;
+    text-align:center;
+    margin: 5px;
+}
+
+.textinho{
+    font-size: 20px;
+    color: #fc8805;
+    text-align: center;
+    margin: 10px;
+}
+
+.nome {
+text-align: end;
+margin: 2px;
+}
+
+.card{
+font-size: 15px;
+text-align: center;
+font-weight: bold;
+padding: 20px;
+margin: 10px;
+background-color: white;
+border-radius: 20px;
+box-shadow: 0 2px 4px rgba(247, 115, 7, 0.5);
+}
