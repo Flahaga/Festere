@@ -4,8 +4,8 @@ import Agenda from "../../../../public/calendario.png";
 import Serviços from "../../../.././public/serviços.png";
 import Portfólio from "../../../.././public/camera.png";
 import Depoimentos from "../../../.././public/depoimento.png";
-import Orçamentos from "../../../.././public/search_5186226.png";
-import Pagamentos from "../../../.././public/money_5186312.png";
+import Orçamentos from "../../../.././public/lupa.png";
+import Pagamentos from "../../../.././public/dinheiro.png";
 import Contatos from "../../../.././public/contatos.png";
 import Redes from "../../../.././public/redes.png";
 import Login from "../../../.././public/login.png";
@@ -44,11 +44,11 @@ export default function Principal(){
             <div className={estilos.linha3}>
             <div class={estilos.icone_box}>
             <Image className={estilos.img_5} src={Orçamentos} alt="Ícone de Orçamentos"/>
-                <div class={estilos.icon_label}>Orçamentos</div>
+            <Link href="/paginaorcamento" className={estilos.icon_label}>Orçamentos</Link>
             </div>
             <div class={estilos.icone_box}>
             <Image className={estilos.img_6} src={Pagamentos} alt="Ícone de Pagamento"/>
-                <div class={estilos.icon_label}>Formas de Pagamento</div>
+            <Link href="/paginapagamento" className={estilos.icon_label}>Formas de Pagamento</Link>
             </div>
             </div>
             <div className={estilos.linha4}>

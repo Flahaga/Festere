@@ -1,0 +1,78 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.titulo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #fc8805;
+}
+
+.orçamento{
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.texto{
+    font-size: 18px;
+    font-weight: bold;
+    text-align:center;
+    margin: 10px;
+}
+.texto1{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    margin: 5px;
+    color: black;
+}
+.input{
+    width: 200px;
+    height: 40px;
+    border-color: orange;
+    border-width: 2;
+    border-radius: 5;
+    padding-inline: 10;
+    margin-bottom: 10;
+    background-color: white;
+}
+
+.caixa{
+    background: linear-gradient(90deg, rgba(255,177,17,1) 0%, rgba(246,166,5,0.9976365546218487) 47%, rgba(252,254,0,1) 96%);
+    border-radius: 50px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+
+}
+
+.icon_label{
+    color: white;
+    background-color: #fc8805;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.casa{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.icon_label2{
+    color:#fc8805;
+    margin-left: 5px;
+    text-decoration: none;
+    margin-top: 30px;
+}
