@@ -54,11 +54,11 @@ export default function Principal(){
             <div className={estilos.linha4}>
             <div class={estilos.icone_box}>
             <Image className={estilos.img_7} src={Contatos} alt="Ícone de Contatos"/>
-                <div class={estilos.icon_label}>Contatos</div>
+            <Link href="/paginacontatos" className={estilos.icon_label}>Contatos</Link>
             </div>
             <div class={estilos.icone_box}>
             <Image className={estilos.img_8} src={Redes} alt="Ícone de Redes Sociais"/>
-                <div class={estilos.icon_label}>Redes Sociais</div>
+            <Link href="/paginaredes" className={estilos.icon_label}>Redes Sociais</Link>
             </div>
             </div>
             <div className={estilos.logar}>

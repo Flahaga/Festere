@@ -1,6 +1,6 @@
 .container{
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     justify-content: center;
     align-items: center;
     padding: 30px;
@@ -31,7 +31,7 @@
     color: white;
     background-color: #fc8805;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 20px;
     text-decoration: none;
 }
 
@@ -45,5 +45,36 @@
     color:#fc8805;
     margin-left: 5px;
     text-decoration: none;
-    margin-top: 30px;
+    margin-top: 50px;
+}
+
+.cartao, .pix , .dinheiro{
+    width: 60px;
+    height: auto;
+}
+
+.card{
+    flex-direction:column;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(247, 115, 7, 0.5);
+    border-radius: 10px;
+    margin: 10px;
+
+}
+
+.texto1{
+    font-size: 20px;
+    color: #fc8805;
+    text-align: center;
+    font-weight:bolder;
+    margin: 5px;
+}
+
+.linha{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
 }

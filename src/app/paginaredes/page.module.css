@@ -1,0 +1,74 @@
+.container{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding: 30px;
+}
+
+.titulo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #fc8805;
+}
+
+.redes{
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.texto{
+    font-size: 18px;
+    font-weight: bold;
+    text-align:center;
+    margin: 10px;
+}
+
+.texto2{
+    font-size: 21px;
+    color: #fc8805;
+    font-weight: bold;
+    text-align:center;
+    margin: 10px;
+}
+.casa{
+    width: 40px;
+    height: 40px;
+    margin-top: 80px;
+}
+
+.icon_label{
+    color:#fc8805;
+    margin-left: 5px;
+    text-decoration: none;
+    margin-top: 50px;
+}
+
+.card{
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+    background-color: white;
+    margin: 10px;
+
+}
+
+.arroba {
+    width: 400px;
+    height: auto;
+    position: absolute;
+    left: 0; 
+    top: 300; 
+    margin: 10px; 
+}
+
+.twitter, .face,.insta{
+width: 50px;
+height: auto;
+margin-left: 5px;
+}
