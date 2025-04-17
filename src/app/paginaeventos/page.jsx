@@ -24,17 +24,20 @@ import Forma4 from "../../.././public/forma4.png"
 import Casa from "../../.././public/casa.png"
 import Link from "next/link";
 
+
 export default function PaginaEventos(){
     return(
         <div className={estilos.container}>
           <Image className={estilos.camera} src={Camera} alt="Ícone de Camêra" />
             <p className={estilos.titulo}>Portfólio de Eventos</p>
          <div className={estilos.banner}>
+          
             <p className={estilos.texto}>Chá de bêbe</p>
             <Image className={estilos.bebe1} src={Bebe1} alt="Chá de bêbe"/>
             <Image className={estilos.bebe2} src={Bebe2} alt="Chá de bêbe"/>
             <Image className={estilos.bebe3} src={Bebe3} alt="Chá de bêbe"/>
             <Image className={estilos.bebe4} src={Bebe4} alt="Chá de bêbe"/>
+            
             <p className={estilos.texto}>Casamento</p>
             <Image className={estilos.casa1} src={Casa1} alt="Casamento"/>
             <Image className={estilos.casa2} src={Casa2} alt="Casamento"/>

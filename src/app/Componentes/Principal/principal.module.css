@@ -3,18 +3,22 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background: linear-gradient(90deg, rgba(255,177,17,1) 0%, rgba(246,166,5,0.9976365546218487) 47%, rgba(252,254,0,1) 96%);
 }
 
 .titulo{
     font-size: 35px;
     font-weight: bold;
     text-align: center;
+    color: aliceblue;
 }
 
 .subtitulo{
     font-size: 25px;
     font-family:'Arial Narrow Bold';
     text-align: center;
+    color: aliceblue;
+    margin: 5px;
 }
 
 
@@ -28,8 +32,8 @@
     width: 120px;
     padding: 15px;
     border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(247, 115, 7, 0.5);
-   
+    box-shadow: 0 2px 4px orangered;
+   background-color: aliceblue;
 }
 
 
@@ -56,13 +60,3 @@
     
 }
 
-.login{
-    width: 50px;
-    height: 50px;
-    margin-right: 5px;
-}
-.logar{
-    align-items: center;
-    justify-content: center;
-    display: flex;
-}

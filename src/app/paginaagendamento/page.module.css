@@ -42,12 +42,6 @@
     background-color: #fc8805;
 }
 
-.submitBtn{
-   background-color: #fc8805;
-   color:black;
-   padding: 10px;
-   border-radius: 20px;
-}
 
 .casa{
     width: 40px;
@@ -56,7 +50,19 @@
 .icon_label{
     color:#fc8805;
     margin-right: 5px;
+    text-decoration: none;
 }
+
+.icon_label2{
+    color:white;
+    background-color: #fc8805;
+    border-radius: 20px;
+    margin-left: 5px;
+    text-decoration: none;
+    margin-top: 50px;
+    padding: 10px;
+}
+
 .link{
     display: flex;
     flex-direction: row;

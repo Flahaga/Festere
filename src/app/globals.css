@@ -1,6 +1,45 @@
+/* Reset básico e configurações globais */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Tahoma, sans-serif;
+  margin: 0; /* Remove margens padrões */
+  padding: 0; /* Remove preenchimentos padrões */
+  box-sizing: border-box; /* Facilita o controle de dimensões */
+  font-family: Tahoma, sans-serif; /* Define uma fonte padrão */
+}
+
+
+/* Ajustes adicionais opcionais */
+
+/* Corpo da página */
+body {
+  background-color: #f9f9f9; /* Cor de fundo para destacar o conteúdo */
+  color: #333; /* Cor de texto padrão */
+  line-height: 1.6; /* Melhora a legibilidade */
+}
+
+/* Adicionando espaçamento ao container principal */
+.container {
+  padding: 20px;
+  max-width: 1200px; /* Largura máxima para centralizar o conteúdo */
+  margin: 0 auto;
+}
+
+/* Personalização do carrossel */
+.slick-slider {
+  margin: 20px 0;
+}
+
+/* Alinhamento dos pontos de navegação do slick */
+.slick-dots {
+  bottom: -10px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black; /* Cores dos controles de navegação */
+}
+
+.slick-slide img {
+  border-radius: 10px; /* Bordas arredondadas para as imagens */
+  display: block;
+  margin: auto; /* Centraliza imagens */
 }

@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding: 30px;
+}
+
+.titulo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: black;
+}
+
+.grana{
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.carteira{
+    width: 300px;
+    height: auto;
+}
+
+.casa{
+    width: 40px;
+    height: 40px;
+    margin-top: 80px;
+}
+
+.icon_label{
+    color:#fc8805;
+    margin-left: 5px;
+    text-decoration: none;
+    margin-top: 50px;
+}
+
+
+
+

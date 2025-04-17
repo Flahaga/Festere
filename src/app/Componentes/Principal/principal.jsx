@@ -8,7 +8,6 @@ import Orçamentos from "../../../.././public/lupa.png";
 import Pagamentos from "../../../.././public/dinheiro.png";
 import Contatos from "../../../.././public/contatos.png";
 import Redes from "../../../.././public/redes.png";
-import Login from "../../../.././public/login.png";
 import Link from "next/link";
 
 
@@ -19,7 +18,7 @@ export default function Principal(){
         <div>
         <div className={estilos.container}>
             <p className={estilos.titulo}>Bem-vindo(a) ao Festerê!</p>
-            <p className={estilos.subtitulo}>Onde as suas festas ganham vida. Experimente a magia do Festerê!</p>
+            <p className={estilos.subtitulo}>Onde as suas festas ganham vida!</p>
             <div className={estilos.icones}>
                 <div className={estilos.linha1}>
             <div class={estilos.icone_box}>
@@ -60,10 +59,6 @@ export default function Principal(){
             <Image className={estilos.img_8} src={Redes} alt="Ícone de Redes Sociais"/>
             <Link href="/paginaredes" className={estilos.icon_label}>Redes Sociais</Link>
             </div>
-            </div>
-            <div className={estilos.logar}>
-            <Image className={estilos.login} src={Login} alt="Ícone de Login"/> 
-            <Link href="/paginalogin" className={estilos.icon_label}>Sair</Link>
             </div>
         </div>
             </div>

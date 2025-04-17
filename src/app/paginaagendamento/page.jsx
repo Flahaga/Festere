@@ -63,7 +63,7 @@ export default function PaginaAgendamento() {
             </div>
           
             {/* Botão de envio */}
-            <button className={estilos.submitBtn}>Agendar</button>
+            <Link href="/confirmacaoagendamento" className={estilos.icon_label2}>Agendar</Link>
             <div>
             <Image className={estilos.casa} src={Casa} alt="Ícone de Casa"/> 
             <Link href="/" className={estilos.icon_label}>Voltar para Home</Link>

@@ -1,15 +1,20 @@
+import PaginaLogin from "@/app/paginalogin/page";
 import Image from "next/image";
 import estilos from "./Banner.module.css"
-import Festere from "../../../../public/festere.png"
+import Link from "next/link";
+import Login from "../../../.././public/login.png";
 
 export default function Banner(){
     return(
 
         <div>
         <div className={estilos.banner}>
-            <p className={estilos.texto}>É um prazer te ter aqui!</p>
-            <Image className={estilos.festere} src={Festere} alt="Logo"/>
-            <p className={estilos.linha}></p>
+            <p className={estilos.texto}>Festere</p>
+            <div className={estilos.logar}>
+            <Image className={estilos.login} src={Login} alt="Ícone de Login"/> 
+            <Link href="/paginalogin" className={estilos.icon_label}>Sair</Link>
+            </div>
+           
 
         </div>
     
